@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex">
+<title>MotionUI</title>
+<noscript><meta http-equiv="refresh" content="0; url=https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI-win-arm64-Setup.exe"></noscript>
+<style>body { margin: 0; display: grid; place-items: center; height: 100vh; background: #09090b; color: #a1a1aa;
+  font: 14px/1.5 -apple-system, "Segoe UI", sans-serif; } a { color: #fafafa; }</style>
+</head>
+<body>
+<p>The download is starting. <a href="https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI-win-arm64-Setup.exe">Start it by hand</a> if nothing happens.</p>
+<script>
+(function () {
+  var url = "https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI-win-arm64-Setup.exe";
+  try {
+    var id = (self.crypto && crypto.randomUUID) ? crypto.randomUUID() : String(Date.now()) + Math.random().toString(16).slice(2);
+    var source = new URLSearchParams(location.search).get("src") || new URLSearchParams(location.search).get("ref") || "direct";
+    fetch("https://eu.i.posthog.com/i/v0/e/", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      keepalive: true,
+      body: JSON.stringify({
+        api_key: "phc_AGGuhEYesJX5pt77ZHhJ6wP3QASmC4aoeMBnGgsap6wA",
+        event: "download_started",
+        distinct_id: id,
+        properties: { os: "windows-arm", source: source.slice(0, 40), $lib: "motionui", $process_person_profile: false }
+      })
+    }).catch(function () {});
+  } catch (e) {}
+  location.replace(url);
+})();
+</script>
+</body>
+</html>
