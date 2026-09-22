@@ -2,6 +2,24 @@
   "Assets": [
     {
       "PackageId": "MotionUI",
+      "Version": "1.3.21",
+      "Type": "Full",
+      "FileName": "https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI-1.3.21-win-x64-full.nupkg",
+      "SHA1": "BA065D38AEC607FD74EA2FE5FA3671BDCD5D063D",
+      "SHA256": "0DD502642ADF8EC809B59D38099DC367F819CF9E1080E2A6226448B992A66DF4",
+      "Size": 53203680
+    },
+    {
+      "PackageId": "MotionUI",
+      "Version": "1.3.21",
+      "Type": "Delta",
+      "FileName": "https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI-1.3.21-win-x64-delta.nupkg",
+      "SHA1": "9B35F3FBE098798F330BA7D727D939BA8009F5F3",
+      "SHA256": "B93B1310D54AE923F46CAA2B15AE9672849A62BDCBF7FCFC72A59DA486F5F2BB",
+      "Size": 1151728
+    },
+    {
+      "PackageId": "MotionUI",
       "Version": "1.3.20",
       "Type": "Full",
       "FileName": "https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI-1.3.20-win-x64-full.nupkg",

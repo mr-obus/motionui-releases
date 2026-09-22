@@ -14,8 +14,20 @@
 (function () {
   var url = "https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI-win-x64-Setup.exe";
   try {
-    var id = (self.crypto && crypto.randomUUID) ? crypto.randomUUID() : String(Date.now()) + Math.random().toString(16).slice(2);
+    // One identity per person, not per page load: without this a second visit counts
+    // as a second person and the download number says more than it knows.
+    var id = null;
+    try { id = localStorage.getItem("mui-visitor"); } catch (e) {}
+    if (!id) {
+      id = (self.crypto && crypto.randomUUID) ? crypto.randomUUID() : String(Date.now()) + Math.random().toString(16).slice(2);
+      try { localStorage.setItem("mui-visitor", id); } catch (e) {}
+    }
     var source = new URLSearchParams(location.search).get("src") || new URLSearchParams(location.search).get("ref") || "direct";
+    // $raw_user_agent lets PostHog drop the crawlers it knows. The flag catches the rest:
+    // automated browsers announce themselves, and headless ones have no touch and no plugins.
+    var agent = navigator.userAgent || "";
+    var robot = /bot|crawl|spider|slurp|headless|preview|fetch|monitor|scan|curl|wget|python|http/i.test(agent) ||
+                navigator.webdriver === true;
     fetch("https://eu.i.posthog.com/i/v0/e/", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
@@ -24,7 +36,10 @@
         api_key: "phc_AGGuhEYesJX5pt77ZHhJ6wP3QASmC4aoeMBnGgsap6wA",
         event: "download_started",
         distinct_id: id,
-        properties: { os: "windows", source: source.slice(0, 40), $lib: "motionui", $process_person_profile: false }
+        properties: {
+          os: "windows", source: source.slice(0, 40), bot: robot,
+          $raw_user_agent: agent.slice(0, 300), $lib: "motionui", $process_person_profile: false
+        }
       })
     }).catch(function () {});
   } catch (e) {}

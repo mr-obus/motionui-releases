@@ -3,6 +3,32 @@
     <channel>
         <title>MotionUI</title>
         <item>
+            <title>1.3.21</title>
+            <pubDate>Tue, 22 Sep 2026 22:25:23 +0200</pubDate>
+            <sparkle:version>10321</sparkle:version>
+            <sparkle:shortVersionString>1.3.21</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>MotionUI 1.3.21</h2>
+<ul>
+  <li>Frames from Figma arrive the way they look. A group becomes a precomp the size it has in Figma, not the size of the whole screen, and the container's own background comes along instead of staying behind.</li>
+  <li>A hairline at 20 percent stays a hairline. Strokes keep their own transparency instead of arriving as solid black.</li>
+  <li>Flags, logos and other colored artwork keep their colors. After Effects merges busy vector art into one filled shape, so anything with more than two colors now arrives as vector footage with continuous rasterization, sharp at any size. Flat icons still become editable shapes.</li>
+  <li>A rounded screen stays rounded. A frame with a corner radius brings its background along as the bottom layer instead of being flattened into the composition color.</li>
+  <li>One undo step for a whole import.</li>
+  <li>Picking a screen that sits inside another frame now sends its layers, not one flat image, and its rows arrive as their own precomps.</li>
+  <li>The Figma plugin handles "Empty comp" again.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI-1.3.21.dmg" length="4195338" type="application/octet-stream" sparkle:edSignature="cMUuKwMHpES9vwNATGeaenByhZ8A0xEoTr2EbsPWigzCOk4Iv3uTi/YQir6fH/W/EAO8VxKqmXTfXSvp6U2wBw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI10321-10320.delta" sparkle:deltaFrom="10320" length="1058374" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="1yS6VcTk0O2avbamt6ek9h6+5U69pro+826E0THBKtF83J75E3wKpxSG+gzy3hBowx8b5dSxoe8n0ex+OqZZBQ=="/>
+                <enclosure url="https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI10321-10319.delta" sparkle:deltaFrom="10319" length="1121146" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="aZ5N0TPDo5vVDUwVWTTV6Q63G8SHwy1Se3LShU3qoalyPGHFHC5wZTXjICGj8Q3BfA3eN3dh6UG+QlQcftGqDA=="/>
+                <enclosure url="https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI10321-10318.delta" sparkle:deltaFrom="10318" length="1121778" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="5gAoQJCPCvOLh2mSHDOD0gI391xovkpFYxyssTpgLnUR4qoYPUipPQEf4klBzRPz6ZlqlqLH3cnAKpF0GRXUCA=="/>
+                <enclosure url="https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI10321-10317.delta" sparkle:deltaFrom="10317" length="1120710" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="QXYudBhDg6UJU97n66LJKfPCNdjRnfoQbQJA0RLeGjpv6HBh8gF2WaEz2coG0XzAY0hYSJ0hUGE76t9Vbm6xCQ=="/>
+                <enclosure url="https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI10321-10316.delta" sparkle:deltaFrom="10316" length="1166422" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="D4Kj/BNdVCnMw8cW7VE6BBlCnQwpVOIevW3BIe02LwWBS6BVBvudNLSvKyE/2ONj2uiCGY+erIELcZc1+F7GDQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.3.20</title>
             <pubDate>Sun, 20 Sep 2026 20:10:27 +0200</pubDate>
             <sparkle:version>10320</sparkle:version>
@@ -40,26 +66,6 @@
                 <enclosure url="https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI10319-10316.delta" sparkle:deltaFrom="10316" length="117962" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="pNaIeJnQjy0DSRkqLRPJvh2UIhrM6b/YG1rkZvFubeg3LRMqIi3Wo7ta6I/LX/cXsEecP5LljORQUboAGZdrDw=="/>
                 <enclosure url="https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI10319-10315.delta" sparkle:deltaFrom="10315" length="1243514" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="mlzwvzwr1NcKziW53luvEaecSLMux0u1MB4R9dWF5xxHpl8URYv69ABJ+OIzQoCDcqw7j21hVtIYO+bwzvSRBg=="/>
                 <enclosure url="https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI10319-10314.delta" sparkle:deltaFrom="10314" length="1247706" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="kMplaR+v5kv47LR2PvcmWTzbmvMYMm9qjMo5+uuRiavET3MRqHgFo1OluiI5CK6cETxWDkMuCY14g1MVpZBgAw=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>1.3.18</title>
-            <pubDate>Sun, 20 Sep 2026 14:44:36 +0200</pubDate>
-            <sparkle:version>10318</sparkle:version>
-            <sparkle:shortVersionString>1.3.18</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>MotionUI 1.3.18</h2>
-<ul>
-  <li>Windows updates now come straight from where the packages live, so an update no longer depends on the website answering. Installed copies keep working, their feed points at the same place.</li>
-</ul>
-]]></description>
-            <enclosure url="https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI-1.3.18.dmg" length="4220773" type="application/octet-stream" sparkle:edSignature="QbZyqQsnp00scW2aqwOxaUL2uYMqlytTDYM/mGn00mtihl1e2kBMcovBcjmkpxbtFwIZAY1KFqlHLjYqAOZfCg=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI10318-10317.delta" sparkle:deltaFrom="10317" length="11418" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="N12gpfKTZGsIBCZxmRt5J727vJDYapNNUihLdOVT8zbQzfREl+GR4x9IaNmn5XakAYYnQVYUHMPzQttArSPnBQ=="/>
-                <enclosure url="https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI10318-10316.delta" sparkle:deltaFrom="10316" length="102934" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="c89HFvC2TsTJ2pNDPmkiqMGaByIMvU0kvhrA1I7Sru5BhlNK26WTigSCSxzMtWiyHKUnrXTlztI8IILBRFh1BA=="/>
-                <enclosure url="https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI10318-10315.delta" sparkle:deltaFrom="10315" length="1239458" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="6UkFu180V9IvLpzPxw1T6jd2FjFXnCIPePdAPDo8GfmbtxnRJz10vkqWuk3qMk31pWVtia6H/yY6N2P3QQCCAw=="/>
-                <enclosure url="https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI10318-10314.delta" sparkle:deltaFrom="10314" length="1243582" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="J+4mHt4WSUZubnT7fIinYCCeXfxxrM+HvLo7tPj7Tb9kL3TjimJVauLykjZ/pqFUzlf5T6nVi/s+hhyW1rLkAQ=="/>
-                <enclosure url="https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI10318-10313.delta" sparkle:deltaFrom="10313" length="1257482" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="3NReFCOrVL7O0c+ijlOd77wkzpSON2Kftx/K1C5ZbHe6NCTqXJjO4ps6EVTPJnHVCWZSMh4Oyq6y6jmSNRf+Cg=="/>
             </sparkle:deltas>
         </item>
     </channel>
