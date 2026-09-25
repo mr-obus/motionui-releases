@@ -3,6 +3,32 @@
     <channel>
         <title>MotionUI</title>
         <item>
+            <title>1.3.24</title>
+            <pubDate>Fri, 25 Sep 2026 09:31:46 +0200</pubDate>
+            <sparkle:version>10324</sparkle:version>
+            <sparkle:shortVersionString>1.3.24</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>MotionUI 1.3.24</h2>
+<ul>
+  <li>Three new easing curves next to expo. Swing In and Swing Out are a pair: the speed at the end of one matches the speed at the start of the other, so a movement carries across a hard cut without a jump. Wave runs fast, slow, fast in a single move.</li>
+  <li>Swing Through, in the Easing section. Pick it like a curve, set Flow, and a whole chain of keyframes runs as one move: the keys in between slow down but never stop, and the first and the last key end up at the same speed.</li>
+  <li>Claude can now change the fill color and the stroke of a shape that already exists. A shape drawn without a stroke gets one, placed above the fill.</li>
+  <li>Claude can move a layer to any position in the stack, so new layers no longer have to stay on top.</li>
+  <li>Tracking can be animated. It rides on its own text animator, which a text effect no longer takes with it.</li>
+  <li>Layers whose name is a number, like "100", can be addressed by that name again instead of being read as a layer index.</li>
+  <li>Windows: the installers are signed.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI-1.3.24.dmg" length="4228611" type="application/octet-stream" sparkle:edSignature="F6Q068DW5VALYI0AbmOh3UdFJAFJQ+X1V4rbrJGRfmdwRDB3PmohfcMjnXDeI7IsgwrXzE8Bcfnp1XjNOzYwAA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI10324-10322.delta" sparkle:deltaFrom="10322" length="1090442" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="UXJpK3sF48PQA2mmzRfqlUcoXCTRjVCTwLuSvjvlMB7Gd3xVYINFw+7VGbIQRWNSpsVZNtQIv1vKqw1PfrT3BQ=="/>
+                <enclosure url="https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI10324-10321.delta" sparkle:deltaFrom="10321" length="1089190" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Xthqo84GSbKoPj++5fNdbtiZ/X7XlzSKI89gcjX5f9o09K/L097zeAfRv2INKWvormYvGXOcvoPmQpFy7wAWAQ=="/>
+                <enclosure url="https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI10324-10320.delta" sparkle:deltaFrom="10320" length="1094210" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="sJ3/kjs5uTHgD47cJ7AUmzEp54kpN3Fs8vIS/GiQB9PAGbuco8LYi6VQSkgfypb77mvqcpCnyk7teXhE4VLfBA=="/>
+                <enclosure url="https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI10324-10319.delta" sparkle:deltaFrom="10319" length="1156898" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="6RgYCr6RaLjNVnuxN8kFeM2m2n3FDtGITIeHSaF0383OtLzY2lW4LiofUMRcqPF3M0IzvNAPsDyp7niaKdXnAg=="/>
+                <enclosure url="https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI10324-10318.delta" sparkle:deltaFrom="10318" length="1158242" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="WsinzZSfmkAtIpQzU+e3DgC4NqPEu6/Ym+ynaySYmuGxDeTgPYtlRHeTLQswnXepsPnqw7PWx7m4DMt0PynaBg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.3.22</title>
             <pubDate>Tue, 22 Sep 2026 23:12:05 +0200</pubDate>
             <sparkle:version>10322</sparkle:version>
@@ -47,26 +73,6 @@
                 <enclosure url="https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI10321-10318.delta" sparkle:deltaFrom="10318" length="1121778" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="5gAoQJCPCvOLh2mSHDOD0gI391xovkpFYxyssTpgLnUR4qoYPUipPQEf4klBzRPz6ZlqlqLH3cnAKpF0GRXUCA=="/>
                 <enclosure url="https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI10321-10317.delta" sparkle:deltaFrom="10317" length="1120710" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="QXYudBhDg6UJU97n66LJKfPCNdjRnfoQbQJA0RLeGjpv6HBh8gF2WaEz2coG0XzAY0hYSJ0hUGE76t9Vbm6xCQ=="/>
                 <enclosure url="https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI10321-10316.delta" sparkle:deltaFrom="10316" length="1166422" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="D4Kj/BNdVCnMw8cW7VE6BBlCnQwpVOIevW3BIe02LwWBS6BVBvudNLSvKyE/2ONj2uiCGY+erIELcZc1+F7GDQ=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>1.3.20</title>
-            <pubDate>Sun, 20 Sep 2026 20:10:27 +0200</pubDate>
-            <sparkle:version>10320</sparkle:version>
-            <sparkle:shortVersionString>1.3.20</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h2>MotionUI 1.3.20</h2>
-<ul>
-  <li>The Figma tab now says what each plugin is for. MotionUI is the Figma version, one click from the Community. MotionUI Agent is the local one: Figma does not list plugins that let an assistant work inside your file, so you install it yourself, and then Claude builds directly in Figma and the work carries on into After Effects.</li>
-</ul>
-]]></description>
-            <enclosure url="https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI-1.3.20.dmg" length="4219224" type="application/octet-stream" sparkle:edSignature="M5pG9Ru9jQ+BJCtgtufPYTiOritqrKtnYGXlOm3987ZbfhtzE1joD6QETTgG+dIr7QWG8VnExyxCcIWPzXomDg=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI10320-10319.delta" sparkle:deltaFrom="10319" length="73718" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ffWe3dJ/+5y/0BhxnsGQ5Qe8JAPRLkCUsvnSJQ0ZtF6Fnq6fcJjNZSACqPZoafTHxkMayF4u0rsuf2lvldBjBA=="/>
-                <enclosure url="https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI10320-10318.delta" sparkle:deltaFrom="10318" length="74438" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="aQOUahzYNYr3fO7UWdIDY00zeimisPykpiVgBNQbdAZ3XvZBCvOSwJ1V+euSnEvL/eKSNK+n+lCtrG0TXwyEAA=="/>
-                <enclosure url="https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI10320-10317.delta" sparkle:deltaFrom="10317" length="73190" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="7UPiYy9qRjseYCGTlAmfV1sCFxCKU+ha9OfPTt9maORfSkPt0QAEDnUeu1AS/x8z5lxPT2eitZScSHuyfxObDg=="/>
-                <enclosure url="https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI10320-10316.delta" sparkle:deltaFrom="10316" length="117418" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="xSeCMcke6/58TxGvHF7FC8/W71gi/GwrkpchSWeFKKoTBRtSs8aVnF3TT9rze6wPFRv6XAjvg3MlB44A+gVZAw=="/>
-                <enclosure url="https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI10320-10315.delta" sparkle:deltaFrom="10315" length="1244690" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="WhQJ50W+2ZiTUgm3ZrPkqnK+WD5TcT///QTsEIU9/gpK5SYC6IBucKtpgBXxw+pcbWNTXATVxTymTNdHTzjNAA=="/>
             </sparkle:deltas>
         </item>
     </channel>
