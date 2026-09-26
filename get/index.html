@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex">
+<title>MotionUI</title>
+<noscript><meta http-equiv="refresh" content="0; url=https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI-1.3.24.dmg"></noscript>
+<style>body { margin: 0; display: grid; place-items: center; height: 100vh; background: #0a0a0a; color: #a9abad;
+  font: 14px/1.6 -apple-system, "Segoe UI", sans-serif; text-align: center; } a { color: #fbfafc; }</style>
+</head>
+<body>
+<p>The download is starting.<br><a id="mac" href="https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI-1.3.24.dmg">Mac</a> &nbsp; <a id="win" href="https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI-win-x64-Setup.exe">Windows</a> &nbsp; <a id="arm" href="https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI-win-arm64-Setup.exe">Windows on ARM</a></p>
+<script>
+(function () {
+  var agent = navigator.userAgent || "";
+  var arm = /aarch64|arm64|ARM;/i.test(agent);
+  var win = /Windows|Win64|Win32/i.test(agent);
+  var url = win ? (arm ? "https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI-win-arm64-Setup.exe" : "https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI-win-x64-Setup.exe") : "https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI-1.3.24.dmg";
+  var os = win ? (arm ? "windows-arm" : "windows") : "mac";
+  try {
+    var id = null;
+    try { id = localStorage.getItem("mui-visitor"); } catch (e) {}
+    if (!id) {
+      id = (self.crypto && crypto.randomUUID) ? crypto.randomUUID() : String(Date.now()) + Math.random().toString(16).slice(2);
+      try { localStorage.setItem("mui-visitor", id); } catch (e) {}
+    }
+    var source = new URLSearchParams(location.search).get("src") || "email";
+    var robot = /bot|crawl|spider|slurp|headless|preview|fetch|monitor|scan|curl|wget|python|http/i.test(agent) ||
+                navigator.webdriver === true;
+    fetch("https://eu.i.posthog.com/i/v0/e/", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      keepalive: true,
+      body: JSON.stringify({
+        api_key: "phc_AGGuhEYesJX5pt77ZHhJ6wP3QASmC4aoeMBnGgsap6wA",
+        event: "download_started",
+        distinct_id: id,
+        properties: {
+          os: os, source: source.slice(0, 40), bot: robot,
+          $raw_user_agent: agent.slice(0, 300), $lib: "motionui", $process_person_profile: false
+        }
+      })
+    }).catch(function () {});
+  } catch (e) {}
+  // A phone gets no file it can use, so it keeps the three links instead.
+  if (/iPhone|iPad|Android|Mobile/i.test(agent)) return;
+  location.replace(url);
+})();
+</script>
+</body>
+</html>
