@@ -1,0 +1,373 @@
+{
+  "Assets": [
+    {
+      "PackageId": "MotionUI",
+      "Version": "1.3.34",
+      "Type": "Full",
+      "FileName": "https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI-1.3.34-win-x64-full.nupkg",
+      "SHA1": "1ACF9426A3A39C39477FB9AD9253FBE1C74345D2",
+      "SHA256": "945582BCB3130D6B2F5778FFCDD44B8E2EE3FC77437DA07786FC768680E19259",
+      "Size": 53585556
+    },
+    {
+      "PackageId": "MotionUI",
+      "Version": "1.3.34",
+      "Type": "Delta",
+      "FileName": "https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI-1.3.34-win-x64-delta.nupkg",
+      "SHA1": "0F7C54602A1DFAA69315411647F1F8CB970D5E5D",
+      "SHA256": "2E130B01C36DAAEDE9947558BD0F3FD00DA174D74D27075ACBAD0A58418B5F55",
+      "Size": 363424
+    },
+    {
+      "PackageId": "MotionUI",
+      "Version": "1.3.33",
+      "Type": "Full",
+      "FileName": "https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI-1.3.33-win-x64-full.nupkg",
+      "SHA1": "CCF866049CC9E333B6E299FEB0A9F271991DD2EB",
+      "SHA256": "0EEFEC4514477F7AD1B27FF964B1A0CF0C2CBF48A933F5C4F27500244C3041A7",
+      "Size": 53568474
+    },
+    {
+      "PackageId": "MotionUI",
+      "Version": "1.3.33",
+      "Type": "Delta",
+      "FileName": "https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI-1.3.33-win-x64-delta.nupkg",
+      "SHA1": "81287E734A43EA90BDD08DF5BF95140F288D491A",
+      "SHA256": "0EF7079AEC562D71A532495EFEC32982B5AF7D9412C7A1FCD0E5383365E5DE59",
+      "Size": 1409352
+    },
+    {
+      "PackageId": "MotionUI",
+      "Version": "1.3.32",
+      "Type": "Full",
+      "FileName": "https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI-1.3.32-win-x64-full.nupkg",
+      "SHA1": "03D036AD5CBEAFFF7C4B81C91A8240EEE90DC7AD",
+      "SHA256": "BE02AEF27290051D84C450F991AA88871F4A73EC16973D7D658CF614C0E1DB17",
+      "Size": 53530007
+    },
+    {
+      "PackageId": "MotionUI",
+      "Version": "1.3.32",
+      "Type": "Delta",
+      "FileName": "https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI-1.3.32-win-x64-delta.nupkg",
+      "SHA1": "BFC05B9E2276482A6C89BC6DE1BC0A7C5E8DAEA5",
+      "SHA256": "CD47A424B77AFCE1113DF55A9790CB752F6F05F15A8AC3D32E44FECC713F0751",
+      "Size": 1242563
+    },
+    {
+      "PackageId": "MotionUI",
+      "Version": "1.3.31",
+      "Type": "Full",
+      "FileName": "https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI-1.3.31-win-x64-full.nupkg",
+      "SHA1": "4CFBAA6D3B71048E4FD1CC1C1549AE289DD66DD4",
+      "SHA256": "E5E5B3F1D245D552F2FAF4841A5820F77D1B2BD22866547FE9AD14B69E406DA2",
+      "Size": 53556905
+    },
+    {
+      "PackageId": "MotionUI",
+      "Version": "1.3.31",
+      "Type": "Delta",
+      "FileName": "https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI-1.3.31-win-x64-delta.nupkg",
+      "SHA1": "9C5806E5AFBFE2D0DEC83AE76F94EEE3CC42E36F",
+      "SHA256": "0C0DFD04C58EDF572EA6275D8ECE3819E0CC68FEC98FA0E41FD6F709CACAE92D",
+      "Size": 216692
+    },
+    {
+      "PackageId": "MotionUI",
+      "Version": "1.3.30",
+      "Type": "Full",
+      "FileName": "https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI-1.3.30-win-x64-full.nupkg",
+      "SHA1": "665AEA3E698AA9EC17D4C7288607A83705F35E73",
+      "SHA256": "31E25F8D97E5A55363A014A869E6C329364E22E2F7FDEEF1363B203A590F3A2B",
+      "Size": 53555068
+    },
+    {
+      "PackageId": "MotionUI",
+      "Version": "1.3.30",
+      "Type": "Delta",
+      "FileName": "https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI-1.3.30-win-x64-delta.nupkg",
+      "SHA1": "0FA50C27F453A749CB77EED4E7FD4B047DF98905",
+      "SHA256": "DD46DDC672ED3FCA008500321F3EE66C8928AF74E87771984DFC4F70B61971DB",
+      "Size": 234943
+    },
+    {
+      "PackageId": "MotionUI",
+      "Version": "1.3.28",
+      "Type": "Full",
+      "FileName": "https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI-1.3.28-win-x64-full.nupkg",
+      "SHA1": "87984853262C4FA34F4BE601B3AACA7A908C7258",
+      "SHA256": "2586C2D6383C89741860AC3A939977E3AC5F068E9703A4AE57D3E44F22E3855E",
+      "Size": 53541983
+    },
+    {
+      "PackageId": "MotionUI",
+      "Version": "1.3.28",
+      "Type": "Delta",
+      "FileName": "https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI-1.3.28-win-x64-delta.nupkg",
+      "SHA1": "D0DB962A85B423BEF14DCB92B0AEB96470358BF1",
+      "SHA256": "C3EB3573B1F7A5F866218F5965B1CDD9CB9AFB7DA2470D68736C289F3E5F46E4",
+      "Size": 404464
+    },
+    {
+      "PackageId": "MotionUI",
+      "Version": "1.3.27",
+      "Type": "Full",
+      "FileName": "https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI-1.3.27-win-x64-full.nupkg",
+      "SHA1": "EBD148C68E3D56B24F3B8E619A0A6DFA4950D68F",
+      "SHA256": "1E3F5B642F401E0D453E3F05DABF12B55E9FA06C5348201B89AE53A4455FE899",
+      "Size": 53242097
+    },
+    {
+      "PackageId": "MotionUI",
+      "Version": "1.3.27",
+      "Type": "Delta",
+      "FileName": "https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI-1.3.27-win-x64-delta.nupkg",
+      "SHA1": "6081DB1627492D939A763F813ED517DACCF505BC",
+      "SHA256": "02DCF938149FF951A8D1670D49AF3FEF54F0AAE484270E4DE6A86A10B312EA37",
+      "Size": 154555
+    },
+    {
+      "PackageId": "MotionUI",
+      "Version": "1.3.26",
+      "Type": "Full",
+      "FileName": "https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI-1.3.26-win-x64-full.nupkg",
+      "SHA1": "8DC555F40F3998CAFF6B72EB1534376ED2D4D553",
+      "SHA256": "98D7AC1DC8327DAF22C91E55B94BE38ECC78425BB499950383A162A3AE880122",
+      "Size": 53539656
+    },
+    {
+      "PackageId": "MotionUI",
+      "Version": "1.3.26",
+      "Type": "Delta",
+      "FileName": "https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI-1.3.26-win-x64-delta.nupkg",
+      "SHA1": "B8760EDA9890CC03A7C4552228758965269C4CBB",
+      "SHA256": "1117A4C635961FCFB14269E2033A3C72C522A5446F9148C020540744BECF2333",
+      "Size": 288891
+    },
+    {
+      "PackageId": "MotionUI",
+      "Version": "1.3.25",
+      "Type": "Full",
+      "FileName": "https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI-1.3.25-win-x64-full.nupkg",
+      "SHA1": "F4CE52265FD780C7E84C7824309CB29B77200BEB",
+      "SHA256": "9174C4D9FB825FB169BDE5F89643315C6C70FA625F3C8775E04C30C5E4D3446A",
+      "Size": 53539296
+    },
+    {
+      "PackageId": "MotionUI",
+      "Version": "1.3.25",
+      "Type": "Delta",
+      "FileName": "https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI-1.3.25-win-x64-delta.nupkg",
+      "SHA1": "C226883EAFA79A765C26F4622672F9B35F052167",
+      "SHA256": "AE6E783C9AB4409FF11B12870DA14C88131954143809719D01BB287BFF40F91D",
+      "Size": 1286956
+    },
+    {
+      "PackageId": "MotionUI",
+      "Version": "1.3.24",
+      "Type": "Full",
+      "FileName": "https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI-1.3.24-win-x64-full.nupkg",
+      "SHA1": "F78DBED5E83592FD96FF910F8CE5E289B69DCD26",
+      "SHA256": "ECF13D1765E346B53A796D3D9FA5771A840F79557EE4FC54D65CD95F606742F0",
+      "Size": 53538977
+    },
+    {
+      "PackageId": "MotionUI",
+      "Version": "1.3.24",
+      "Type": "Delta",
+      "FileName": "https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI-1.3.24-win-x64-delta.nupkg",
+      "SHA1": "E57C0EBFF1774998817125F33752334D9207A35A",
+      "SHA256": "DB2D4FBDF36808D1C3E9C429C6EACD70E10D170C6475C04E6D880AB9C57F8152",
+      "Size": 1295783
+    },
+    {
+      "PackageId": "MotionUI",
+      "Version": "1.3.23",
+      "Type": "Full",
+      "FileName": "https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI-1.3.23-win-x64-full.nupkg",
+      "SHA1": "F1BE9957B106582C5C05C741BBC103B38BA62108",
+      "SHA256": "00AE80B00A9E71D008CD3C47EA06C8D01B0348E2647ED05D1C6A649EA8CFB3EF",
+      "Size": 53503789
+    },
+    {
+      "PackageId": "MotionUI",
+      "Version": "1.3.23",
+      "Type": "Delta",
+      "FileName": "https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI-1.3.23-win-x64-delta.nupkg",
+      "SHA1": "03588834513B19500505260ED49839D4F0F3F03D",
+      "SHA256": "0C1EA60F9F03A1C83661622DAA561265D0F9B3552F11BD3D5D8D083178CC2094",
+      "Size": 404447
+    },
+    {
+      "PackageId": "MotionUI",
+      "Version": "1.3.22",
+      "Type": "Full",
+      "FileName": "https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI-1.3.22-win-x64-full.nupkg",
+      "SHA1": "18A2DAFA06B64AB61D4D4001505005F2030FD14C",
+      "SHA256": "A2BAA06D1B7FC1F3A7A94B11D1CF488E820B1C7066F5E8BE96EA7DC5E517324D",
+      "Size": 53203662
+    },
+    {
+      "PackageId": "MotionUI",
+      "Version": "1.3.22",
+      "Type": "Delta",
+      "FileName": "https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI-1.3.22-win-x64-delta.nupkg",
+      "SHA1": "6C074B207953F5C8436713D13285EB14A19A907B",
+      "SHA256": "115B747D09C9BEB05C71D053592C72B692CBE456062608E88C5BF753A12D7363",
+      "Size": 1148015
+    },
+    {
+      "PackageId": "MotionUI",
+      "Version": "1.3.21",
+      "Type": "Full",
+      "FileName": "https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI-1.3.21-win-x64-full.nupkg",
+      "SHA1": "BA065D38AEC607FD74EA2FE5FA3671BDCD5D063D",
+      "SHA256": "0DD502642ADF8EC809B59D38099DC367F819CF9E1080E2A6226448B992A66DF4",
+      "Size": 53203680
+    },
+    {
+      "PackageId": "MotionUI",
+      "Version": "1.3.21",
+      "Type": "Delta",
+      "FileName": "https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI-1.3.21-win-x64-delta.nupkg",
+      "SHA1": "9B35F3FBE098798F330BA7D727D939BA8009F5F3",
+      "SHA256": "B93B1310D54AE923F46CAA2B15AE9672849A62BDCBF7FCFC72A59DA486F5F2BB",
+      "Size": 1151728
+    },
+    {
+      "PackageId": "MotionUI",
+      "Version": "1.3.20",
+      "Type": "Full",
+      "FileName": "https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI-1.3.20-win-x64-full.nupkg",
+      "SHA1": "FF30B607000595E3BB60699C8111BF1754975512",
+      "SHA256": "4F4A4B2F60BDDCA45C8BE6D512F07C6783F65126D973BC7E1F33F7CEEDB93319",
+      "Size": 53227033
+    },
+    {
+      "PackageId": "MotionUI",
+      "Version": "1.3.20",
+      "Type": "Delta",
+      "FileName": "https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI-1.3.20-win-x64-delta.nupkg",
+      "SHA1": "18EA2AA0B31372A9184F9AC282DD14085425541A",
+      "SHA256": "76CD941DD0EFE714477CD87E8E7BA172EA21EF5F6EDF3022CDA66E4091483185",
+      "Size": 108088
+    },
+    {
+      "PackageId": "MotionUI",
+      "Version": "1.3.19",
+      "Type": "Full",
+      "FileName": "https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI-1.3.19-win-x64-full.nupkg",
+      "SHA1": "FBF50277A38AAD74E02DC09B7F409AFA8DCCBEFD",
+      "SHA256": "C1E76DC706FB8B9B696D02D314B47D9722EA1326F4D97A7D7EFDCF09A84F6E5D",
+      "Size": 53226942
+    },
+    {
+      "PackageId": "MotionUI",
+      "Version": "1.3.19",
+      "Type": "Delta",
+      "FileName": "https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI-1.3.19-win-x64-delta.nupkg",
+      "SHA1": "C7B0607FC93CE267FDC1797DEA4F11A992C367D5",
+      "SHA256": "31F5E316D6D58FA23E051377BDAA5A60EE58F376AC604FD0B9141705EEEA5265",
+      "Size": 108330
+    },
+    {
+      "PackageId": "MotionUI",
+      "Version": "1.3.18",
+      "Type": "Full",
+      "FileName": "https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI-1.3.18-win-x64-full.nupkg",
+      "SHA1": "0ED634A7F226CCFA300D6E4CE8DF0B03BB66F013",
+      "SHA256": "A25150214FA75E2A9F0E642D5BC4F547B6C048672A13E43E87C0320F5FCF9E6D",
+      "Size": 53226971
+    },
+    {
+      "PackageId": "MotionUI",
+      "Version": "1.3.18",
+      "Type": "Delta",
+      "FileName": "https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI-1.3.18-win-x64-delta.nupkg",
+      "SHA1": "0A0EE82B7C237A030272A907D1F78288C163CB96",
+      "SHA256": "25F8A04EE0DC991B0E6DCAB7C266F79B3F9F9E75EECF23275005F244C0497AE4",
+      "Size": 108019
+    },
+    {
+      "PackageId": "MotionUI",
+      "Version": "1.3.17",
+      "Type": "Full",
+      "FileName": "https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI-1.3.17-win-x64-full.nupkg",
+      "SHA1": "B82ABE178B758D8F3A54DB5D55593A5DD239A250",
+      "SHA256": "A265DC5735548EA7A1CEF764A55093A299760F8C84027FF19A04D20069429135",
+      "Size": 53226945
+    },
+    {
+      "PackageId": "MotionUI",
+      "Version": "1.3.17",
+      "Type": "Delta",
+      "FileName": "https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI-1.3.17-win-x64-delta.nupkg",
+      "SHA1": "D16415C72ADD640E6373E858CAF6FD6BE491ECB1",
+      "SHA256": "8D19996E6EF8D9AA924106695939B49DE7061B5FC1B82769FE397C68A5CB679A",
+      "Size": 125259
+    },
+    {
+      "PackageId": "MotionUI",
+      "Version": "1.3.16",
+      "Type": "Full",
+      "FileName": "https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI-1.3.16-win-x64-full.nupkg",
+      "SHA1": "65887FCF7147F2068A9553970DD553C13537C4BE",
+      "SHA256": "E7E883F95893033DF7D2B045E871D13D949D7DC55A9B3FC016F18162D3B52262",
+      "Size": 53226657
+    },
+    {
+      "PackageId": "MotionUI",
+      "Version": "1.3.16",
+      "Type": "Delta",
+      "FileName": "https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI-1.3.16-win-x64-delta.nupkg",
+      "SHA1": "E0A734CD25039B46FEE9EA0A96A5FD9AC6DE2775",
+      "SHA256": "2D0DEB2C0F9FE49C1D95F3D137AD47E4AFC069B7CDE6B148999CF1D60B02C599",
+      "Size": 1210544
+    },
+    {
+      "PackageId": "MotionUI",
+      "Version": "1.3.15",
+      "Type": "Full",
+      "FileName": "https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI-1.3.15-win-x64-full.nupkg",
+      "SHA1": "81268B83807B5595FED981681F73B08E232253CE",
+      "SHA256": "A5C1305FA6153BD15EB41DC8B8E4E0F1514389EC62048BDB2E962676A3AEDA33",
+      "Size": 53224776
+    },
+    {
+      "PackageId": "MotionUI",
+      "Version": "1.3.15",
+      "Type": "Delta",
+      "FileName": "https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI-1.3.15-win-x64-delta.nupkg",
+      "SHA1": "8E745FA5FC0458243C259E1835B81079555214FE",
+      "SHA256": "8514691441241238228830E8A5DC14EBF8072E834BC5E81EB6A49B95FCF0EC3C",
+      "Size": 1185367
+    },
+    {
+      "PackageId": "MotionUI",
+      "Version": "1.3.14",
+      "Type": "Full",
+      "FileName": "https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI-1.3.14-win-x64-full.nupkg",
+      "SHA1": "04413BEA47FF0DD4E02D4DCCF918AEE1AA017FA2",
+      "SHA256": "40E4A161ADCF4AD9DBF6AA69EFDDF269479BEC2539966A050498981224763CA5",
+      "Size": 53224400
+    },
+    {
+      "PackageId": "MotionUI",
+      "Version": "1.3.14",
+      "Type": "Delta",
+      "FileName": "https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI-1.3.14-win-x64-delta.nupkg",
+      "SHA1": "A7C864FC6D60207AE0FA38608C6981E301E477C5",
+      "SHA256": "00F3B50528AB7C1FD5B3097D877D57117A5F075DB0D609BB8997E8312B33A534",
+      "Size": 112105
+    },
+    {
+      "PackageId": "MotionUI",
+      "Version": "1.3.13",
+      "Type": "Full",
+      "FileName": "https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI-1.3.13-win-x64-full.nupkg",
+      "SHA1": "E606DE16E09C1A2F419D64BDC1744CFA6AFD44BC",
+      "SHA256": "0376EB3C38F09B7B0FBB39E5AA940242C3B8019505C50FC49D6516513B69B595",
+      "Size": 53221137
+    }
+  ]
+}

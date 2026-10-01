@@ -1,0 +1,75 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>MotionUI</title>
+        <item>
+            <title>1.3.34</title>
+            <pubDate>Thu, 01 Oct 2026 11:22:05 +0200</pubDate>
+            <sparkle:version>10334</sparkle:version>
+            <sparkle:shortVersionString>1.3.34</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>MotionUI 1.3.34</h2>
+<ul>
+  <li>MotionUI is now in the Figma Community. Open plugin in the Figma tab takes you there, one click installs it in Figma.</li>
+  <li>The Figma tab says when the Figma import needs Pro, and the plugin tells you where to get it.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI-1.3.34.dmg" length="4520853" type="application/octet-stream" sparkle:edSignature="Bhrjp/GNqJ4c8LHszMqgzieSrGx/pa8JKGmjOzH7qJLdEWQkBKhBqbgdHd0CKKBkODPbN+CCU/22F+hnpgKAAQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI10334-10333.delta" sparkle:deltaFrom="10333" length="368126" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="//9SMGCEN9H+Dn4J3u1hmJZHmjVjlh44veohei+3u7iSo5ufV/e88h8KeU/BiNOspLYjOG5zFnzsg6QTeiBbCw=="/>
+                <enclosure url="https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI10334-10332.delta" sparkle:deltaFrom="10332" length="1485798" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="/s5Fxw86e2Bc3x5a8Kfyi/+5v1DVOEIb2ANEy84XNyGkbE9UJfsOSy+WzUGIvKCBfDedOxQsdRnjd3JOktV8Aw=="/>
+                <enclosure url="https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI10334-10331.delta" sparkle:deltaFrom="10331" length="1489062" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="bRBUr+RqHjUAugiX1SSrU3el0b/Re4fKJIgvhlHXbGFNmKPOSeI1xerKkos9OBrgWk3jcQ3EYOtKSWCjJkgMBA=="/>
+                <enclosure url="https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI10334-10330.delta" sparkle:deltaFrom="10330" length="1508898" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="JMbS06ZDKslJjfUZhophjChGZ11oXlFP6VdC6XNe3XsbaM2VsXYE8+4zlT2GeTs5x+rMJ95955BYzhdIHmZFBA=="/>
+                <enclosure url="https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI10334-10329.delta" sparkle:deltaFrom="10329" length="1595722" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="+Vc0UoC6lJEHMuy2jfYyiOaXKOJNQZi16ARGLJBuVXYIFQVAFEBE2mTTc/8k+QThZAEZrFoJXHo4tLiJRNDFAA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.3.33</title>
+            <pubDate>Wed, 30 Sep 2026 14:08:01 +0200</pubDate>
+            <sparkle:version>10333</sparkle:version>
+            <sparkle:shortVersionString>1.3.33</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>MotionUI 1.3.33</h2>
+<ul>
+  <li>Figma import has a new Detail setting. Editable, the new default, brings every layer in on its own, with shadows and blur as effects you can change. Simplified brings busy parts like big tables in as one image, as before.</li>
+  <li>With Layers set to Groups, groups arrive nested like in Figma, as comps within comps, and keep their opacity, shadows, blur and background blur.</li>
+  <li>Icons keep their holes and inner parts, logos with several colors stay vectors, and pictures in round frames, like profile photos, arrive round.</li>
+  <li>Text lines up exactly where it sits in Figma, also in table headers. Words at partial opacity and text with a gradient stay editable text.</li>
+  <li>Glows made with shadow spread, Figma's glass effect (as a background blur) and wide radial gradients now look like in Figma.</li>
+  <li>An import no longer stops with the message "Could not create outlines".</li>
+  <li>The Community version of the Figma plugin is coming soon. Until then, MotionUI Agent does the same and more.</li>
+  <li>After Effects panel 1.6.13 and Figma plugin 22. After the update, close and reopen MotionUI Agent in Figma once.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI-1.3.33.dmg" length="4393898" type="application/octet-stream" sparkle:edSignature="Xm67l7O6unurZou+qLqxU7TS0zXZDKI/zKMhywS3YM/DH+1xhVr2qV5Ljzwg4NFOD56B19qG5Le+up9kqYVaBw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI10333-10332.delta" sparkle:deltaFrom="10332" length="1276542" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="aKDi8rVPK+s3wAo9/2sgIhDiWoEFdfvV2K8uAPBfNV5JCVUVltjrF5DB39fcmt0XVbCAyDG4mbwlLQJZXCirAQ=="/>
+                <enclosure url="https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI10333-10331.delta" sparkle:deltaFrom="10331" length="1297234" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="dTevfGm4x60dLMb9VEXR+tfFBuLIUGBljsnoD7iIahPQMLXK4thEvzGFP9xVWHv2CE7+5fUbHtccUUZkXy7bCg=="/>
+                <enclosure url="https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI10333-10330.delta" sparkle:deltaFrom="10330" length="1356782" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="prdr8GexOAtuw4pIJaFd0QSzDodQcNlnDHdAkSlZoJ/9PI5AiTysS5yz0H1MAQmKGHYVmh3Eo39fSBFSIsjGAA=="/>
+                <enclosure url="https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI10333-10329.delta" sparkle:deltaFrom="10329" length="1476262" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="wUayHvuM9iq4S6XzE/oI5NY7+G1VVR+KogYbHtw/062PkPfi/oKGbLwsqKeayrkg+Pd4ZmRpBwev/CMqPh3sAw=="/>
+                <enclosure url="https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI10333-10327.delta" sparkle:deltaFrom="10327" length="1489178" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="2NeD2QhTM1F86ZcxR2dHH/cep1u1Hse7zQhc49vC4LkGecB7uF5q631k7DRij6H2RiJ9ScJJ2GEaSgW2285FCg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.3.32</title>
+            <pubDate>Mon, 28 Sep 2026 17:33:04 +0200</pubDate>
+            <sparkle:version>10332</sparkle:version>
+            <sparkle:shortVersionString>1.3.32</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>MotionUI 1.3.32</h2>
+<ul>
+  <li>Codex connects on Windows. The Codex app for Windows does not come with a command line tool MotionUI can run, so Connect failed with "could not find the Codex tools". MotionUI now adds its tools to the Codex settings file directly, which the Codex app, the Codex CLI and the editor extensions all read.</li>
+  <li>After Effects panel 1.6.12: Connect now in the AI tab does the same for Codex, and uses the Node.js runtime of the MotionUI app, so it no longer asks you to install Node.js.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI-1.3.32.dmg" length="4344438" type="application/octet-stream" sparkle:edSignature="gtRepAAbZouH57sjNFjNUz19FDdAzef6Somdx+b/JOjFGmsSoM7oP7eIRJKf/Hnc9Oh8Q+Dm0XGIa2M7KttZAQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI10332-10331.delta" sparkle:deltaFrom="10331" length="1198306" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="b3dGYdVIst2oqmywn6kTVojBXlAf4Y++SjAPmLtgh0O8Si3SoZpliWkGh4wRCfWdgx0mtirh7/jP85w7P7p7AQ=="/>
+                <enclosure url="https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI10332-10330.delta" sparkle:deltaFrom="10330" length="1284406" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="1iqOg+gebXI7jCT6yMixJGtRadQEsALf3vE4mb/e+bUcpSp1a3PtgnWbWoikFKcObRQrP3Z6tmBPi2SZGqmTAQ=="/>
+                <enclosure url="https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI10332-10329.delta" sparkle:deltaFrom="10329" length="1413498" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="bnsOFYo+rQZVsif4hMbrmLd7ejz/v2RkCOfM99/rTAQS+O1WI76kcmuPBv2vPO0AJSpk9z10FMyXR40iwA19AA=="/>
+                <enclosure url="https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI10332-10327.delta" sparkle:deltaFrom="10327" length="1421790" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="81Axgr5yb893PUOzOwG7Wcmq8lzzSgbSpHTO1PMHAHnO5MyyZi6W+DGUbzvCUray3FXMPX8D4GUBrXSieWg/Dw=="/>
+                <enclosure url="https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI10332-10325.delta" sparkle:deltaFrom="10325" length="1450454" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="nyAnXnPwzsyFJCFYZSMb/ai1bsrvEHFH/sXaldzfLVJTtcGW8+QkSA5x0IEs5LxiKo0RsrDcz7dzvgJ998fjCA=="/>
+            </sparkle:deltas>
+        </item>
+    </channel>
+</rss>
