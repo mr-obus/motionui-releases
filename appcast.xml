@@ -1,0 +1,85 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>MotionUI</title>
+        <item>
+            <title>2.0.0</title>
+            <pubDate>Fri, 09 Oct 2026 13:28:56 +0200</pubDate>
+            <sparkle:version>20000</sparkle:version>
+            <sparkle:shortVersionString>2.0.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>MotionUI 2.0</h2>
+<p>MotionUI now reaches into Premiere Pro. MotionUI for Premiere is not an animation tool: there is nothing to click in Premiere. It connects Claude to your project, so you say what the film needs and Claude does the edit. Part of Pro.</p>
+<ul>
+  <li>New Premiere tab: install the MotionUI panel for Premiere Pro, add your OpenAI key for transcripts and connect Claude in one place.</li>
+  <li>Claude reads your project, sequences and transcripts, looks at frames and cuts interviews from the transcript into a new sequence, so your original stays untouched.</li>
+  <li>Markers on the beats of your music, named Kick, Snare, Hit and Change, each in its own color.</li>
+  <li>Audio fades as real transitions on the clip edge, so they move with every trim. A small hidden helper in Premiere adds them; restart Premiere Pro once after installing.</li>
+  <li>Color like a colorist: Claude reads scopes, matches shots, applies film looks and grades parts of a shot.</li>
+  <li>Captions, 9:16 versions, After Effects comps through Dynamic Link and exports.</li>
+  <li>Connecting Claude writes a short house rule for Premiere next to the one for After Effects, so Claude works in Premiere only through these tools.</li>
+  <li>Figma designs arrive more exactly: rotated text and shapes sit where they are in the design, circles cut off by the frame edge stay round instead of being squashed, and outlines drawn inside or outside a shape keep their size.</li>
+  <li>Several people on one computer: only MotionUI in the account that is in use now holds the Figma link and the Premiere connection. Before, MotionUI in another account could keep them, so sending from Figma failed with “Invalid token.” If another program holds the link, the Figma tile now says so.</li>
+  <li>The update button in MotionUI works again once an update is downloaded. Before, it could stay without effect until the next restart.</li>
+  <li>MotionUI for Premiere 2.0.0, After Effects panel 1.6.14, Figma plugin 24.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI-2.0.0.dmg" length="4700016" type="application/octet-stream" sparkle:edSignature="V519/aSYaXh2FYLp72w/j6fc3aQNag9Xo2Z0zcHnh/Lt/Du39HZb8IGy48mwgsOQ2i8dOHtHGB1roACvSQE/Ag=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI20000-10335.delta" sparkle:deltaFrom="10335" length="416582" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Cz5n0DSFT/FW7RmSNrXdZSIYYsSNDla4vEjaYn1MmDbVAtu8wnBg/qaC/NfeNTwf/xLxbaxOY8I1MoQhjWUfDQ=="/>
+                <enclosure url="https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI20000-10334.delta" sparkle:deltaFrom="10334" length="1531358" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="02zbHOYksYOZt0bFpdQ/ZZv2I2EHzAMMUBQSHyNJRQke/2qE5FrBGR0hTb1k7fKZ3Ii+i1T9aWRElBilJHzYAw=="/>
+                <enclosure url="https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI20000-10333.delta" sparkle:deltaFrom="10333" length="1636346" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="MFfBGw2OfgMHCRn8aXHv/3Se+5Cj4KzvRzlncEKg8fIZYCy6VE0UPStUZpQo0JbvKes/VQcRncHNhLXXMRCiAA=="/>
+                <enclosure url="https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI20000-10332.delta" sparkle:deltaFrom="10332" length="1654402" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="NfjkdAebwvVzVMwnHx8K6qfzTzE7bTeSl/wK4GhjV15yNQNYISQikIDVbnPJwGF8aqy1yGROEvpVoqW1XzAvDg=="/>
+                <enclosure url="https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI20000-10331.delta" sparkle:deltaFrom="10331" length="1657186" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="vrhzawjk35Hq5bxXVuYsBvfC1pZs0J53m3NgP/n9vwdEo/r5DOICWhLvgeslcz5Gzb5dfYoVHq2zkHYfK2FwCg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.3.35</title>
+            <pubDate>Tue, 06 Oct 2026 09:51:07 +0200</pubDate>
+            <sparkle:version>10335</sparkle:version>
+            <sparkle:shortVersionString>1.3.35</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>MotionUI 1.3.35</h2>
+<ul>
+  <li>After the latest Claude app update, the AI tab said "Claude is not installed". MotionUI finds Claude Code in its new place again.</li>
+  <li>Figma import keeps blend modes on layers and fills, so glass and other materials blend with what sits behind them, like in Figma.</li>
+  <li>Text in a fixed-width box keeps the line breaks it has in Figma.</li>
+  <li>Claude can save your After Effects project, so Premiere Pro picks up changes through Dynamic Link without you pressing Cmd+S.</li>
+  <li>With Premiere Pro open, Claude could end up working in the hidden After Effects that Premiere starts in the background instead of yours. Fixed.</li>
+  <li>If the connection between Claude and After Effects stops, an open MotionUI panel now restarts it on its own.</li>
+  <li>The info markers in the app show their text once instead of twice.</li>
+  <li>After Effects panel 1.6.14 and Figma plugin 23. After the update, close and reopen MotionUI Agent in Figma once.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI-1.3.35.dmg" length="4539508" type="application/octet-stream" sparkle:edSignature="r6Q9SLJ56asRtcsjJE7sgYZRhMV+JXjhBFsSzPS4OgHRltMbugUvVRQzX9TqvmbH7w/g1HK6sgm/JP6lxujoBQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI10335-10334.delta" sparkle:deltaFrom="10334" length="1310870" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="OCsmKIUb4R4Wd49rfF25zxSSBSgfgSqiRw20g0QbQB1aD98ECDiAdLv4+IxU7cd0nezN0cjdMp9HPo3gj1xTBQ=="/>
+                <enclosure url="https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI10335-10333.delta" sparkle:deltaFrom="10333" length="1493190" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ie7n921QnkHTuRJ2RUk0YZtLB8SICe3HAwYL1AjqZhkGQLyxBcdxaX/KRH+LR0V8FSWidwMjXhVXG/9OduanBg=="/>
+                <enclosure url="https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI10335-10332.delta" sparkle:deltaFrom="10332" length="1518074" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="wJJ5ehWiBbc3UMjHBVum2CKnyaAqU6LN4J2nFS1VAu+accsgYgAw/5BpyMhxc6rMDKvZXhUBsReuGayiCOlUAw=="/>
+                <enclosure url="https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI10335-10331.delta" sparkle:deltaFrom="10331" length="1523922" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="L92GgDrQVvO4ulpowg/3xbLutAV8w1OZzuYg26x/DsGlXOvX5xkA43KzyPwzF91wH0SYtjfiu5nL+eMS4R+kAg=="/>
+                <enclosure url="https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI10335-10330.delta" sparkle:deltaFrom="10330" length="1541102" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="evn0Xgv9scH/N5lG43AP67L1digpUVgo2JrbYKQ4fmPpLhbKNshbpIKihXmTSs15wH//O8bN0s4Dibwgwq5RDw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.3.34</title>
+            <pubDate>Thu, 01 Oct 2026 11:22:05 +0200</pubDate>
+            <sparkle:version>10334</sparkle:version>
+            <sparkle:shortVersionString>1.3.34</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>MotionUI 1.3.34</h2>
+<ul>
+  <li>MotionUI is now in the Figma Community. Open plugin in the Figma tab takes you there, one click installs it in Figma.</li>
+  <li>The Figma tab says when the Figma import needs Pro, and the plugin tells you where to get it.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI-1.3.34.dmg" length="4520853" type="application/octet-stream" sparkle:edSignature="Bhrjp/GNqJ4c8LHszMqgzieSrGx/pa8JKGmjOzH7qJLdEWQkBKhBqbgdHd0CKKBkODPbN+CCU/22F+hnpgKAAQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI10334-10333.delta" sparkle:deltaFrom="10333" length="368126" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="//9SMGCEN9H+Dn4J3u1hmJZHmjVjlh44veohei+3u7iSo5ufV/e88h8KeU/BiNOspLYjOG5zFnzsg6QTeiBbCw=="/>
+                <enclosure url="https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI10334-10332.delta" sparkle:deltaFrom="10332" length="1485798" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="/s5Fxw86e2Bc3x5a8Kfyi/+5v1DVOEIb2ANEy84XNyGkbE9UJfsOSy+WzUGIvKCBfDedOxQsdRnjd3JOktV8Aw=="/>
+                <enclosure url="https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI10334-10331.delta" sparkle:deltaFrom="10331" length="1489062" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="bRBUr+RqHjUAugiX1SSrU3el0b/Re4fKJIgvhlHXbGFNmKPOSeI1xerKkos9OBrgWk3jcQ3EYOtKSWCjJkgMBA=="/>
+                <enclosure url="https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI10334-10330.delta" sparkle:deltaFrom="10330" length="1508898" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="JMbS06ZDKslJjfUZhophjChGZ11oXlFP6VdC6XNe3XsbaM2VsXYE8+4zlT2GeTs5x+rMJ95955BYzhdIHmZFBA=="/>
+                <enclosure url="https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI10334-10329.delta" sparkle:deltaFrom="10329" length="1595722" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="+Vc0UoC6lJEHMuy2jfYyiOaXKOJNQZi16ARGLJBuVXYIFQVAFEBE2mTTc/8k+QThZAEZrFoJXHo4tLiJRNDFAA=="/>
+            </sparkle:deltas>
+        </item>
+    </channel>
+</rss>
