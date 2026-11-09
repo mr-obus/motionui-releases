@@ -1,0 +1,75 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>MotionUI</title>
+        <item>
+            <title>2.0.6</title>
+            <pubDate>Mon, 09 Nov 2026 17:45:43 +0000</pubDate>
+            <sparkle:version>20006</sparkle:version>
+            <sparkle:shortVersionString>2.0.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>MotionUI 2.0.6</h2>
+<ul>
+  <li>Pins&amp;Grid puts every pin, handle and segment label on the right spot again for vectors from Figma, SVGs and any shape layer with nested groups. Before, they could land too small and up left.</li>
+  <li>On the Mac, MotionUI now has a Learn tab. Getting started ticks itself as each part starts working, and short animations show where to click: opening the panel in After Effects, running the Figma plugin, sending a frame, connecting Claude or Codex. Every guide links to the full steps and, where there is one, the After Effects project file to download.</li>
+  <li>On the Mac, the setup checklists in each tab play the animation for the step you are on, and the Figma checklist starts with the MotionUI plugin from the Figma Community.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI-2.0.6.dmg" length="4976673" type="application/octet-stream" sparkle:edSignature="Z6yoqbmwY6htedmjFdra4CjfMiRPSpPyY2lZA7OPVInT4HKa27+FZkT8Iob/p5DIOme/9Gr8Gl2W40LMSHSFDQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI20006-20005.delta" sparkle:deltaFrom="20005" length="1617366" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="eUDHZpWhQxZXrKnB75SsvvbOhQUVtvzqgUXmZ4NDxmUEzC48YKwdhkGxH0LYm5GofXjw+FEOvHgUEn9hcZ7ZAQ=="/>
+                <enclosure url="https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI20006-20004.delta" sparkle:deltaFrom="20004" length="1623554" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="WII1t3l9kpNn7VOHHiztPBbKg2wKEHeQ5gPaWc5PGIno+xJ5NqsCccSQQERquPfzBM/4bWjviYA9SIMDoiiQAA=="/>
+                <enclosure url="https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI20006-20003.delta" sparkle:deltaFrom="20003" length="1622030" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="LFMdRTGJO+HrrE7GpRpuaMaQ1PS2qVbYu+AvVhkJpLV2RKh73eJPTRuVKFMqj4+Ez2I5LWT3yC6V+FaFyXj0Cg=="/>
+                <enclosure url="https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI20006-20002.delta" sparkle:deltaFrom="20002" length="1699666" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="wzRAwla4LLD34jMWucXnag2HbvFqrWpkZS0QIPdK6wbjBn5War43/lHIN+geqp2QmivOXl8EtQEONc0EInLICw=="/>
+                <enclosure url="https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI20006-20001.delta" sparkle:deltaFrom="20001" length="1716758" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="cGWPuT5fjN6BiakEJtoGt93GL7NiiQ8T7TZCyTdXdtxz74pldxC93s98QeUVbdwB6Lt1SorcJq9wootANAuvBw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>2.0.5</title>
+            <pubDate>Mon, 09 Nov 2026 16:39:43 +0000</pubDate>
+            <sparkle:version>20005</sparkle:version>
+            <sparkle:shortVersionString>2.0.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>MotionUI 2.0.5</h2>
+<ul>
+  <li>Figma frames arrive in After Effects as more editable layers. Gradients with more than two stops, gradients that fade out, inner shadows, dashed strokes, stacked gradient fills, masks and strokes on single sides now come over as real layers instead of a flat image.</li>
+  <li>Frames sent into a comp of another size keep their proportions, including type, corners, strokes, shadows and gradients.</li>
+  <li>Claude and Codex can rename a comp, and expressions that use its name follow. They can also set its background, duration, frame rate, work area and the comp motion blur switch with shutter angle.</li>
+  <li>Claude and Codex can package comps as a clean project to share: only those comps and what they use, with the footage collected next to it.</li>
+  <li>The Typewriter preview in the Text tab now plays in step with the other text animations.</li>
+  <li>The Figma plugin updates to version 26.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI-2.0.5.dmg" length="4761096" type="application/octet-stream" sparkle:edSignature="Nf94ZGW8KHXpZ/6QalGiTo6/eKy0xK71x0hw3+cD9raE0yakv6+AMu5ctWhDLio8Ea5aokSxu6tJON4ZdoSxBA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI20005-20004.delta" sparkle:deltaFrom="20004" length="1134078" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="u1JpMcATJrJkRB6XceUOkoqwrAZjKlFQsbyhqpb+hg11jJrhAUU9XIFqr7xpShw2evacQVBw0Ggvqorin7a2Bg=="/>
+                <enclosure url="https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI20005-20003.delta" sparkle:deltaFrom="20003" length="1134146" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="nkIIM8W/xIliUoP6Z8TuROAhgNUIQluYuK/s9crQ1LJ5JR3JCzfHY5PqS8p00xLl00Idbm2zUlVww5WFjXEBAA=="/>
+                <enclosure url="https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI20005-20002.delta" sparkle:deltaFrom="20002" length="1408754" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="qYkk4M4svGN5gcYjFdSGMb1fLLlcf7zo7F4C76t4OCuSnEhyP8jRMQvlcbFov/pPeNIZsDjDVPg/iOhH6qjJAQ=="/>
+                <enclosure url="https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI20005-20001.delta" sparkle:deltaFrom="20001" length="1445422" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="FevQlZHgkr2bKrtJjNQZp2DQF8nh6xS2wD9Ehxe8ckRMJZPNwQMmV5pC/cMRBtuw42sLKvaNqsgjHEEXetWwBg=="/>
+                <enclosure url="https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI20005-20000.delta" sparkle:deltaFrom="20000" length="1464422" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="gRz5tDWzSpsiNKuAMUJcB+xvJXifDF0LNyc2aFt4cZnD/+zYeHf+WL41tREZ+Swvp1qoZNBmLwnYmRnvI+BbCw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>2.0.4</title>
+            <pubDate>Mon, 09 Nov 2026 09:35:04 +0000</pubDate>
+            <sparkle:version>20004</sparkle:version>
+            <sparkle:shortVersionString>2.0.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>MotionUI 2.0.4</h2>
+<ul>
+  <li>You can create a rectangle right from the panel again, under More → Rectangle. Width, height and corner radius stay live sliders in Effect Controls, so you can animate them. The corner radius slider now goes up to 500 px.</li>
+  <li>New Liquid glass switch for the rectangle. It bends and frosts whatever lies below it and adds three soft white inner shadows. Refraction, depth, frost, tint and every shadow stay live controls on the rectangle, and the glass follows when you animate its size, corners, position or rotation.</li>
+  <li>Claude and Codex can build the same liquid glass rectangle for you.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI-2.0.4.dmg" length="4746160" type="application/octet-stream" sparkle:edSignature="GRhOLs+01mFzipFFYswQVF+yD8Naky87ks8ij0eBu3Wt8tc51q1b1fPKzzflEyRq+2s3oTrsnKp15sf+6W90DQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI20004-20003.delta" sparkle:deltaFrom="20003" length="1116878" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="QlNnCOlWP3Q6JJug6ZuYfCbBj7slEIxLK0lKfg+rPOoEPvHJSVZ5fs/S0zYLk6uWief0ZuEVd1pO5c5MNC0HAg=="/>
+                <enclosure url="https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI20004-20002.delta" sparkle:deltaFrom="20002" length="1390982" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="EXeZcOGH6kKGr2QQp3zWkCBwBYWBaxtuOJEB/qc6jLk6sguMq8vrfyEeyBdP4pJMM97pGxKhPSh5KGwN3/7VBg=="/>
+                <enclosure url="https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI20004-20001.delta" sparkle:deltaFrom="20001" length="1428518" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="wVMvY0DrNXQm+EB0mvQHD4aAyDSny7u0aQMUWmXj34z0PUmKbX4xc/tQCMvT9N84DWi5dsMSN/ek3GoxfpsaAQ=="/>
+                <enclosure url="https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI20004-20000.delta" sparkle:deltaFrom="20000" length="1447246" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="LkYI6X/w9yq+M7iJnX1M+V6AbuW30y7/XJyvZ3NnBHGvLMIbQxMBRsGdRHbmwjXs7t+CwGEkcd8PlkdvKNWGDQ=="/>
+                <enclosure url="https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI20004-10335.delta" sparkle:deltaFrom="10335" length="1589026" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Tvs40VXDcOWcmhZnwybHCBAd6pnVZtlCbJIpPuEg+hKRG6WlQcC2sVIL0ORu6vZKPzg/VYMyORs3h8qHDJivCA=="/>
+            </sparkle:deltas>
+        </item>
+    </channel>
+</rss>
