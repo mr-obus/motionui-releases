@@ -1,0 +1,85 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>MotionUI</title>
+        <item>
+            <title>2.0.13</title>
+            <pubDate>Tue, 24 Nov 2026 19:01:05 +0100</pubDate>
+            <sparkle:version>20013</sparkle:version>
+            <sparkle:shortVersionString>2.0.13</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>MotionUI 2.0.13</h2>
+<ul>
+  <li>Figma imports look more like Figma. Drop shadows keep their blend mode, so text in Apple's menu bar kit no longer gets a white glow, and shadows of see-through cards come out as strong as in Figma.</li>
+  <li>Background blur on a single shape stays live in After Effects and follows the shape. 3D rotations from Figma arrive as live 3D, with the layers inside still editable.</li>
+  <li>Fewer precomps: a shape with a gradient or an effect now arrives as one layer you can resize, not a precomp of its own.</li>
+  <li>Very large soft glows, such as a huge blurred stroke behind a scene, arrive as an image of what the frame shows instead of a black layer. Shaders arrive as images.</li>
+  <li>The animations in Learn are sharp on every screen, including monitors without Retina.</li>
+  <li>The MotionUI panel opens a little wider, and the Figma plugin window has a slim dark scrollbar that only shows when the content is taller than the window.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI-2.0.13.dmg" length="5257262" type="application/octet-stream" sparkle:edSignature="2fnHt5M6k8DdxpNr40SrVVuHgtoZesHAZjXTlu6/vMqy7TOIzDndHjegIP14R6qxBnMkrHFPv++YhaekOjN9Cg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI20013-20012.delta" sparkle:deltaFrom="20012" length="1185378" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="CIkX0HagARa+i7XDnwcvn6f3xj4I3pjhZg+odHU/m2zEcPf4rKNjLTJEJ1isOD0/HKJD1RbJnDRRayQaA1CdDg=="/>
+                <enclosure url="https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI20013-20011.delta" sparkle:deltaFrom="20011" length="1645798" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="2oHXHIJbxEEirqUmxM3ZEmQjo/szSdC4+6C+pC3d3rMsLbwvZecJ/CgF/C0HYpN4zSg3Px28mr3Fqc9PsoLKBg=="/>
+                <enclosure url="https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI20013-20010.delta" sparkle:deltaFrom="20010" length="1645766" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="IJ+lVG9Zb3veB2i+ePaWXCK3aNoOBqU7FPErA4DJPOElDkaz7Fm2H+2q0U2fGhELBAXPnj/aYGQye29Hl27qBA=="/>
+                <enclosure url="https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI20013-20009.delta" sparkle:deltaFrom="20009" length="1731214" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="2JEUH4kRPqBIUUin+NW+TmFy5AI3KxAgVT9eOYNZoxkDvpHTQ3YCK945pcKC8K6ju4re8f/yZc6+jHJkX+FmBQ=="/>
+                <enclosure url="https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI20013-20008.delta" sparkle:deltaFrom="20008" length="1749458" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="P6J1pGN5hTVaUz+BygLRL3y4dtaK5KIy/GGGNjSlZz3kei3P3aPvpelE4LlMHlOP1Z+fExU8pljT5AMvFwNXAQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>2.0.12</title>
+            <pubDate>Mon, 23 Nov 2026 21:02:40 +0100</pubDate>
+            <sparkle:version>20012</sparkle:version>
+            <sparkle:shortVersionString>2.0.12</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>MotionUI 2.0.12</h2>
+<ul>
+  <li>Updates take one step. If a newer version came out while an update was waiting on your Mac, MotionUI goes straight on to the newest one after the restart.</li>
+  <li>New text effect Centered type: words appear one after another like a typewriter, and the line stays centered. Seven of the eleven text effects are now free, Centered type included.</li>
+  <li>Align and Distribute sit next to the anchor grid in More &gt; Layers. Align to the selection or to the comp, and distribute three or more layers with equal gaps.</li>
+  <li>Add null puts one null in the middle of the selection and parents every selected layer to it.</li>
+  <li>Claude, ChatGPT and other AI apps now animate with two keyframes and an easing instead of long lists of baked keyframes, so you can retime everything by hand afterwards.</li>
+  <li>Text behind a person (Pro, Mac): ask the AI to put a title behind someone in a video layer, and MotionUI cuts the person out for you.</li>
+  <li>The Matchcut blur no longer shows a hard box around text without a background.</li>
+  <li>Click the version number in the menu bar window to check for updates. The animations in Learn stay sharp when they zoom in.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI-2.0.12.dmg" length="5247988" type="application/octet-stream" sparkle:edSignature="RA4TTBykbG0G34lU1hCwPxgQYoJv/Q47t+6gKDaDO9E2Gp2zHHtGj0zxSud7OeT24eSUEhq/teilDX/g5SmAAQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI20012-20011.delta" sparkle:deltaFrom="20011" length="1635238" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="wM/XpDSLekU5+hE+4oH9CPzzQB8q9YdZQsHaa35d16PzFbEMEXuJVSJvMudK6IvgVHfnjyj1s/uQiepzuXlUDg=="/>
+                <enclosure url="https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI20012-20010.delta" sparkle:deltaFrom="20010" length="1634326" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Quoo75iCuuNIMFl07x6AxhBfGP8mJYyIaykO3pr9sTM/qLsCrgN1BmsCYBIZgHuY+GNUlDd6cvdOCNTInGScAw=="/>
+                <enclosure url="https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI20012-20009.delta" sparkle:deltaFrom="20009" length="1720686" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="wmxhBkGz0wcxVTkNOHrNsOQSLVbAEcYxbdRABtUpiyrhDR5JSAzCFaMX26VaN6dUdYmu5FEqBrQQScc8wJkxBQ=="/>
+                <enclosure url="https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI20012-20008.delta" sparkle:deltaFrom="20008" length="1737802" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="SicYjisKFR29+uAURvPWc0qEwzfCl9OL9MnynV8XR1bdhfTiFqdR4/wxS6REmKANfy4nDhvbgnsWo+G85vTFAQ=="/>
+                <enclosure url="https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI20012-20006.delta" sparkle:deltaFrom="20006" length="1770670" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="uJul6svxYCtTHNjC4zdtmn7pq69PXOdQ+AL6AVk1dkA4Zo+1RJjABwyJ5lJQxrSMv0yK+wyY2kkqWEVOaqeaDg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>2.0.11</title>
+            <pubDate>Thu, 19 Nov 2026 18:29:57 +0000</pubDate>
+            <sparkle:version>20011</sparkle:version>
+            <sparkle:shortVersionString>2.0.11</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h2>MotionUI 2.0.11</h2>
+<ul>
+  <li>Proximity now scales each layer by a share of its own size. Images from Figma, which arrive scaled down, grow as much as every other layer, and mirrored layers no longer shrink when they should grow. Layers at 100 % behave exactly as before. To update layers you already set up, apply Proximity to them again.</li>
+</ul>
+<h3>Also new since 2.0.9</h3>
+<ul>
+  <li>Images from Figma arrive as the image itself, scaled to its Figma size, so Grid Builder, 3D and motion blur work on them right away. Precomp next to Layer keeps the previous way, and the menu next to Layer sets the resolution: Auto, or 1x to 5x.</li>
+  <li>Convert selected in the Rectangle section turns rectangles you already have into MotionUI rectangles without changing their look.</li>
+  <li>License and App updates come first in Settings. The version number opens Settings, and a small badge next to it installs a downloaded update. Settings is also in the MotionUI menu on a Mac (⌘,) and in the tray menu on Windows.</li>
+  <li>When another program holds the Figma link, MotionUI names it. On Windows, MotionUI starts with Windows, and screen readers read the tabs and switches.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI-2.0.11.dmg" length="5053751" type="application/octet-stream" sparkle:edSignature="B/rropyBlHw3khKmYBuhY2lWH3XF8lj82ddxtLf+lK8KMZtmelDv0W3BrauuE/Nkw3tOOLZgfuTaejxkC417DA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI20011-20010.delta" sparkle:deltaFrom="20010" length="1146834" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="+JGR7hry5qDC0WqqKEd5R/Im4D9FkfjyvItYc+IG5g5uJdMKmpeOP7Zkp342Qz6el9Tp6UPkSNddMrLqNBCcDQ=="/>
+                <enclosure url="https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI20011-20009.delta" sparkle:deltaFrom="20009" length="1495298" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="jfFtiJeT7133zopU3JSgBCfcwbNVZaZjqEA5SxSlTUM1A0SDTwT0rOXBLdy14E2Dz8HDDGUk5kLoiKNua/dUDw=="/>
+                <enclosure url="https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI20011-20008.delta" sparkle:deltaFrom="20008" length="1516306" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="zcne9GMVlJE8QTqtKrdwWK2bPNMKmkJbwSyjzGHUJFqJYSEVEpo0XdxmuKrLPZ08RlWLGF9t0VNmKMFKAPjQAA=="/>
+                <enclosure url="https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI20011-20006.delta" sparkle:deltaFrom="20006" length="1565418" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="8FbkA2LR1UZlfq1vpRl1NMYNfgy0cu8HbOqblNAHjb4F51gzRNFHekBP8gK7GhczlhA2VP+a/bJOa+TMmSIdAA=="/>
+                <enclosure url="https://github.com/mr-obus/motionui-releases/releases/download/downloads/MotionUI20011-20005.delta" sparkle:deltaFrom="20005" length="1741334" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="MuhB5sHFZCjfIxO3oZDCJFQIBELMFgfZeW5BJuhg65qiH8XWpJHfGev64aytKMevD35o+dhM4XaeSuXWz4X8AQ=="/>
+            </sparkle:deltas>
+        </item>
+    </channel>
+</rss>
